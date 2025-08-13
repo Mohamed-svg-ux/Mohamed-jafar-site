@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:"Rubik";
+}
+body{
+    background-color: #222831;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    padding: 0 0.5rem ;
+    max-width: 1200px;
+}
+.mohamedlogo {
+    width: 150px;
+
+}
+
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem ;
+
+
+}
+.navigation a{
+    text-decoration: none;
+    color: #eeeeee;
+
+}
+
+
+
+.navigation a:hover {
+    
+    color: #00adb5;
+    
+}
+hr{
+    opacity: 10%;
+}
+.hero {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 5rem auto;
+max-width: 1200px;
+}
+
+.arrow {
+    position: absolute;
+    transform: translateX(-5.5rem) translateY(1.5rem);
+}
+.herosup {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+
+.name {
+    font-size: 3rem;
+    color: #eeeeee;
+}
+.title {
+    font-size: 4rem;
+    color: #00adb5;
+}
+.herobtns{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+
+}
+.hireme{
+    background-color: #00adb5;
+    color: #eeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+     transition: box-shadow 0.5s ease ;
+}
+.hireme:hover {
+     box-shadow: 0 0 20px 5px #00ffcc;
+}
+.cv {
+background-color: rgba(57, 62, 70, 0.75);
+
+    color: #eeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    backdrop-filter:blur(4px);
+
+}
+.aboutme {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 5rem auto;
+max-width: 1200px;
+gap: 10rem;
+
+
+
+}
+.textcontainer {
+display: flex;
+flex-direction: column;
+}
+.textTitle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.aboutname {
+    color: #eeeeee;
+}
+.aboutTitle {
+    color: #00adb5;
+}
+.aboutmePar {
+    text-align: justify;
+    color: rgba(238 ,238, 238, 0.75);
+}
+.Works {
+    background-image: url(svg/background.svg);
+    padding: 10rem 10rem;
+    margin: 5rem 0rem;
+}
+.workscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:left;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+.projectTitle {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    font-size: 2rem;
+}
+.Works ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Works li {
+    border-radius: 16px;
+    background-color: rgba(57, 62, 70, 0.75);
+    backdrop-filter: blur(4px);
+    padding: 1rem 4rem;
+}
+.Works li img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.2s;
+}
+.Works li :hover {
+    transform: scale(1.5);
+}
+.contactcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+.contactTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 2rem; 
+}
+.Contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    gap: 20rem;
+}
+.Contact h3, .Contact a{
+    color: #eeeeee;
+    text-decoration: none;
+
+
+}
+.emailandphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+footer {
+    color: #eeeeee;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(57, 62, 70, 0.75);
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  font-family: "poppins", sans-serif;
+  direction: rtl;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+.contact-form input,
+.contact-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #eeeeee;
+}
+
+.contact-form button {
+  background: #00adb5;
+  color: #eeeeee;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease,  0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #00ffcc;
+  box-shadow: 0 0 20px 5px #00ffcc;
+}
+
+
+
+
+
+
+
+.crazy-divider {
+  border: none;
+  height: 4px;
+  width: 0;
+  margin: 50px auto;
+  background: linear-gradient(90deg, #00ff88, #00b3ff, #ff00c8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ff88, 0 0 20px #00b3ff, 0 0 30px #ff00c8;
+  animation: laserExpand 1s ease-out forwards, glowPulse 1.5s ease-in-out infinite 1s;
+}
+
+/* حركة الليزر من النص */
+@keyframes laserExpand {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  50% {
+    width: 20%;
+    opacity: 1;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+/* وميض النيون */
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 10px #00ff88, 0 0 20px #00b3ff, 0 0 30px #ff00c8;
+  }
+  50% {
+    box-shadow: 0 0 20px #00ff88, 0 0 40px #00b3ff, 0 0 60px #ff00c8;
+  }
+}
+
+
+/* وميض الألوان مع Box-Shadow */
+@keyframes glowPulse {
+  0%, 100% {
+    filter: brightness(0.5);
+    box-shadow: 0 0 10px #00ff88, 0 0 20px #00b3ff, 0 0 30px #ff00c8;
+  }
+  50% {
+    filter: brightness(6);
+    box-shadow: 0 0 60px #00ff88, 0 0 120px #00b3ff, 0 0 180px #ff00c8;
+  }
+}
+
+
+
+/* وميض النيون */
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 10px #00ff88, 0 0 20px #00b3ff, 0 0 30px #ff00c8;
+  }
+  50% {
+    box-shadow: 0 0 20px #00ff88, 0 0 40px #00b3ff, 0 0 60px #ff00c8;
+  }
+}
+
+
+
+
+.profile-pic {
+    width: 200px; /* تقدر تغير الحجم على حسب اللي انت عايزه */
+    height: 200px; /* تحافظ على الشكل المربع */
+    object-fit: cover; /* يخلي الصورة متناسبة مع الإطار من غير تشوه */
+    border-radius: 50%; /* يخليها دائرية لو عايز */
+}
+
+
+
+
+
+
+
+.emailandphone {
+    display: flex;               /* نخلي الصورة والرقم جنب بعض */
+    align-items: center;         /* نص الصورة والرقم في نفس المستوى */
+    background-color: #00f7ff;  /* خلفية فاتحة وجميلة */
+    padding: 10px 15px;          /* مسافة جوه الصندوق */
+    border-radius: 12px;         /* حواف مدورة */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ظل خفيف يعطي عمق */
+    max-width: 250px;            /* حجم مناسب للصندوق */
+    transition: transform 0.3s;  /* حركة بسيطة عند hover */
+}
+
+.emailandphone img {
+    width: 30px;                 /* حجم أيقونة الهاتف */
+    margin-right: 10px;           /* مسافة بين الأيقونة والرقم */
+}
+
+.emailandphone h3 {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+}
+
+.emailandphone:hover {
+    transform: scale(1.05);      /* تكبير خفيف عند المرور عليه */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* ظل أكبر شويه */
+}
+
+
+
+.scrooll_up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #20c997;
+    padding: 5px 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by ShrinilDhorda */ 
+.btn {
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.btn:active {
+  scale: 0.92;
+}
+
+.btn:hover {
+  background: rgb(2,29,78);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: rgb(4, 4, 38);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile-pic, .aboutmeimg, .Works li img {
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.profile-pic:hover, .aboutmeimg:hover, .Works li img:hover {
+    transform: rotate(-3deg) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,255,204,0.5);
+}
+
+
+
+
+
+
+
+/* للأجهزة اللي عرضها أقل من 768px (تليفونات) */
+@media only screen and (max-width: 768px) {
+
+  body {
+    padding: 0 10px; /* مسافة بسيطة من الأطراف */
+  }
+
+  header {
+    flex-direction: row; /* خلي القوائم جنب بعض */
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .navigation ul {
+    flex-direction: row; /* القوائم جنب بعض */
+    gap: 1rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem auto;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .aboutme {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .aboutmeimg {
+    width: 80%;
+    height: auto;
+  }
+
+  .herobtns {
+    justify-content: center;
+  }
+
+  .Contact {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .emailandphone {
+    justify-content: center;
+  }
+
+}
+
+
+
+
+
